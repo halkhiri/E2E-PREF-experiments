@@ -1,0 +1,15 @@
+{
+  "movielens_split_and_graph": true,
+  "amazon_split_and_graph": true,
+  "full_behavior": true,
+  "no_graph_behavior": true,
+  "no_temporal_behavior": true,
+  "no_text_behavior": true,
+  "no_candidate_behavior": true,
+  "aux_all_behavior": true,
+  "aux_con_behavior": true,
+  "aux_tem_behavior": true,
+  "aux_sem_behavior": true,
+  "bpr_mf_behavior": true,
+  "sasrec_behavior": true
+}

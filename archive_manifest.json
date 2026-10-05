@@ -1,0 +1,29 @@
+{
+  "sha256": "902310319854bee66c96d800f86f0b59bef94e272e7f90e49c0c351673b78e08",
+  "parts": [
+    {
+      "name": "reproduction.zip.part01",
+      "sha256": "5f30c4c73895014ad9d463b5e43466fec06dd136c959fdd341cec12c015839b0"
+    },
+    {
+      "name": "reproduction.zip.part02",
+      "sha256": "d80d212be83044492930057beabe9f07ff96a61626484275d6ca10fedac6cd20"
+    },
+    {
+      "name": "reproduction.zip.part03",
+      "sha256": "081d81912658b97651799ffa11d0e2f2b96c62c5cb65b003340496b882c383ae"
+    },
+    {
+      "name": "reproduction.zip.part04",
+      "sha256": "11cc8ef472b1e7e5ec322232370686943f7ffbe2ba3e738b8e43ce4667f05665"
+    },
+    {
+      "name": "reproduction.zip.part05",
+      "sha256": "85708b3fcad52251a1f022d4d43af82bb3846ce2920b1810ebf001a613fe733c"
+    },
+    {
+      "name": "reproduction.zip.part06",
+      "sha256": "65fa739d5082c5c3b43fd8051ec77b3e9b89e155d3d7b1babfd232d4814999d0"
+    }
+  ]
+}

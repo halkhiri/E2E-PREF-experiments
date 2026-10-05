@@ -1,0 +1,17 @@
+Accessible linear equivalents of manuscript Equations (1)–(6) and evaluation definitions
+
+1. a_k = softmax over k of [w^T tanh(W_p h_k + b_p)]; u = sum_k a_k h_k.
+2. u_C = MultiHeadAttention(u, V_C, V_C).
+3. s(u,i | C) = w_1^T (u_C elementwise-product v_i) + w_2^T (u_C + v_i) + b_i.
+4. L_rank = logsumexp_{j in C} s(u,j | C) - s(u,i_positive | C).
+   logsumexp_j x_j means log(sum_j exp(x_j)); this is the same original sampled-softmax loss.
+5. L_con = (1/B) sum_{b=1}^B [logsumexp_{j=1,...,B} z_bj - z_bb].
+   This equals the original negative mean log-softmax on the paired view.
+6. L_e = L_rank + min(e/5,1) * (0.1 L_con + 0.05 L_tem + 0.2 L_sem).
+Evaluation: NDCG@10 for user u = indicator(r_u <= 10) / log2(r_u + 1).
+Evaluation: Recall@20 for user u = indicator(r_u <= 20); MRR for user u = 1/r_u.
+
+Paired contrast: Delta = [1/(S*U)] sum_{s=1}^S sum_{u=1}^U [m_joint(s,u) - m_frozen(s,u)].
+   S=5 seeds; U=1000 fixed MovieLens user indices or1092 Amazon user indices; one held-out target per user.
+
+B is batch size, e is epoch, r_u is target rank. Ranking loss is averaged over the batch in Equation 6. z_bj is cosine similarity of two augmented history representations divided by temperature 0.2. Temporal loss compares pre-attention pooled prefix vectors; semantic loss averages one minus cosine to the fixed projected-text prior over unique slate items. u, u_C, v_i, w_1 and w_2 have 32 entries; V_C has |C| rows and 32 columns. Native editable Word equations are used in the manuscript. Plain-text PDF extraction may flatten fractions and re-order summation limits, so this file is the unambiguous linear representation.

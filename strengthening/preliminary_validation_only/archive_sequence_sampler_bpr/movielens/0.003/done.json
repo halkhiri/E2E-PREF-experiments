@@ -1,0 +1,11 @@
+{
+  "kind": "bpr_mf",
+  "seed": 501,
+  "lr": 0.003,
+  "best_epoch": 50,
+  "best_validation": 0.571945070471663,
+  "seconds": 12.470908880233765,
+  "parameters": 904928,
+  "trainable_parameters": 904928,
+  "source_sha256": "a316fc5cc629a4c9cef70361b65358ca63afbc8e77675bcc54f100c294ef8bfd"
+}

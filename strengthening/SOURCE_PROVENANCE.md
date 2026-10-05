@@ -1,0 +1,11 @@
+# Data and implementation provenance
+
+- MovieLens-20M official release: https://grouplens.org/datasets/movielens/20m/ . The full movie metadata catalog is reused; the user sample is new and excludes the previous pilot's1,000 user IDs.
+- Amazon 2014 Musical Instruments 5-core: https://cseweb.ucsd.edu/~jmcauley/datasets/amazon/links.html . Review and metadata files were downloaded from the linked Stanford SNAP repository. Citation: J. McAuley, C. Targett, Q. Shi, and A. van den Hengel, “Image-based Recommendations on Styles and Substitutes,” SIGIR2015, https://arxiv.org/abs/1506.04757 . Only positive event IDs/times and product metadata are used; review text never enters the model.
+- Text encoder: sentence-transformers/all-MiniLM-L6-v2 revision 1110a243fdf4706b3f48f1d95db1a4f5529b4d41, https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/tree/1110a243fdf4706b3f48f1d95db1a4f5529b4d41 . Features use masked mean pooling and normalization, maximum 256 wordpieces.
+- E2E-PREF core: preserved corrected reconstruction, with original function and checkpoint conventions. This is an implemented framework rather than recovered original author code.
+- SASRec port: original source https://github.com/kang205/SASRec (Apache2.0; included license). Final baseline uses scaled item embeddings, learned positions, query-normalized causal attention, residual pointwise ReLU blocks and final normalization. Two32-dimensional blocks, one head, dropout 0.2, left padding and Xavier initialization are used. All valid next-item positions in each user’s last 30 training transitions are supervised with one negative per position, excluding all training positives. Optimization uses Adam with beta2 = 0.98. The local PyTorch port and common validation procedure are explicit adaptations; official TensorFlow benchmark results are not claimed.
+- BPR-MF: dot-product user/item vectors and pairwise negative log-sigmoid; local implementation with31 negatives, positives sampled from all training positives, and negatives excluded from the entire training-positive set.
+- Item neighborhood: training-only cosine similarities, validation-selected top20/50/100 neighbors; full permitted positive history at inference.
+
+No external repository, manuscript or dataset is published by this workflow.

@@ -1,0 +1,14 @@
+{
+  "dataset": "amazon",
+  "users": 1092,
+  "catalog_items": 900,
+  "positive_events": 7814,
+  "training_events": 5630,
+  "test_without_train": 38,
+  "raw_reviews": 10261,
+  "minimum_positive_history": 5,
+  "metadata_items_found": 900,
+  "empty_titles": 4,
+  "source_sha256": "03f9cc27ae13a454cb4ea6cb620fb10546cc1194ef921441d1c5f34addff2748",
+  "metadata_sha256": "9ef838f5d971d3a7f52f0bbc1cc971082cddd8d6b1049ec3c4940e28293bfd85"
+}

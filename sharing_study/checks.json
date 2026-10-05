@@ -1,0 +1,22 @@
+[
+  {
+    "dataset": "movielens",
+    "original_parameters": 989264,
+    "separate_parameters": 1864496,
+    "shared_dual_parameters": 1864496,
+    "identical_initial_tensors": true,
+    "gradient_routing": true,
+    "sparse_dense_values": true,
+    "full_slate_scoring": true
+  },
+  {
+    "dataset": "amazon",
+    "original_parameters": 124614,
+    "separate_parameters": 155750,
+    "shared_dual_parameters": 155750,
+    "identical_initial_tensors": true,
+    "gradient_routing": true,
+    "sparse_dense_values": true,
+    "full_slate_scoring": true
+  }
+]

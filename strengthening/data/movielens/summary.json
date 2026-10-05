@@ -1,0 +1,11 @@
+{
+  "dataset": "movielens",
+  "users": 1000,
+  "catalog_items": 27278,
+  "positive_events": 74833,
+  "training_events": 72833,
+  "test_without_train": 49,
+  "old_pilot_user_overlap": 0,
+  "sampling_seed": 29092026,
+  "dataset_sha256": "96f243c338a8665f6bcc89c53edf6ee39162a846940de6b7c8c48aeada765ff3"
+}

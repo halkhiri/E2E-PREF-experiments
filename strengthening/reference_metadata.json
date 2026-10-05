@@ -1,0 +1,151 @@
+{
+  "2": {
+    "doi": "10.1145/3038912.3052569",
+    "title": "Neural Collaborative Filtering",
+    "pages": "173-182",
+    "year": {
+      "date-parts": [
+        [
+          2017,
+          4,
+          3
+        ]
+      ]
+    },
+    "source": "https://api.crossref.org/works/10.1145/3038912.3052569"
+  },
+  "3": {
+    "doi": "10.1109/icdm.2018.00035",
+    "title": "Self-Attentive Sequential Recommendation",
+    "pages": "197-206",
+    "year": {
+      "date-parts": [
+        [
+          2018,
+          11
+        ]
+      ]
+    },
+    "source": "https://api.crossref.org/works/10.1109/ICDM.2018.00035"
+  },
+  "9": {
+    "doi": "10.1145/3397271.3401063",
+    "title": "LightGCN",
+    "pages": "639-648",
+    "year": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          25
+        ]
+      ]
+    },
+    "source": "https://api.crossref.org/works/10.1145/3397271.3401063"
+  },
+  "10": {
+    "doi": "10.1145/3292500.3330989",
+    "title": "KGAT",
+    "pages": "950-958",
+    "year": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          25
+        ]
+      ]
+    },
+    "source": "https://api.crossref.org/works/10.1145/3292500.3330989"
+  },
+  "12": {
+    "doi": "10.1145/3219819.3219823",
+    "title": "Deep Interest Network for Click-Through Rate Prediction",
+    "pages": "1059-1068",
+    "year": {
+      "date-parts": [
+        [
+          2018,
+          7,
+          19
+        ]
+      ]
+    },
+    "source": "https://api.crossref.org/works/10.1145/3219819.3219823"
+  },
+  "20": {
+    "doi": "10.1145/3340531.3411954",
+    "title": "S3-Rec: Self-Supervised Learning for Sequential Recommendation with Mutual Information Maximization",
+    "pages": "1893-1902",
+    "year": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          19
+        ]
+      ]
+    },
+    "source": "https://api.crossref.org/works/10.1145/3340531.3411954"
+  },
+  "23": {
+    "doi": "10.1145/3298689.3347058",
+    "title": "Are we really making much progress? A worrying analysis of recent neural recommendation approaches",
+    "pages": "101-109",
+    "year": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          10
+        ]
+      ]
+    },
+    "source": "https://api.crossref.org/works/10.1145/3298689.3347058"
+  },
+  "24": {
+    "doi": "10.1145/3383313.3412488",
+    "title": "Neural Collaborative Filtering vs. Matrix Factorization Revisited",
+    "pages": "240-248",
+    "year": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          22
+        ]
+      ]
+    },
+    "source": "https://api.crossref.org/works/10.1145/3383313.3412488"
+  },
+  "26": {
+    "doi": "10.1145/3394486.3403226",
+    "title": "On Sampled Metrics for Item Recommendation",
+    "pages": "1748-1757",
+    "year": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          20
+        ]
+      ]
+    },
+    "source": "https://api.crossref.org/works/10.1145/3394486.3403226"
+  },
+  "29": {
+    "doi": "10.1145/2766462.2767755",
+    "title": "Image-Based Recommendations on Styles and Substitutes",
+    "pages": "43-52",
+    "year": {
+      "date-parts": [
+        [
+          2015,
+          8,
+          9
+        ]
+      ]
+    },
+    "source": "https://api.crossref.org/works/10.1145/2766462.2767755"
+  }
+}

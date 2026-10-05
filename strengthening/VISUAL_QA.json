@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "pages_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "manuscript_sha256": "f5ae08771c24e7206ef9140b0f7273b1ca1763a7afd231aeb734b9fc5729991c",
+  "checks": [
+    "All pages inspected at original resolution",
+    "No clipped text or table overflow",
+    "Table rows kept together; no isolated final rows",
+    "Equations, architecture image, references and page numbers legible"
+  ]
+}

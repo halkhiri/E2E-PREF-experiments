@@ -1,0 +1,12 @@
+{
+  "new_fitting_runs": 32,
+  "new_evaluated_models": 20,
+  "all_sources_unchanged_during_training": true,
+  "all_fitting_completed_before_new_test_evaluation": true,
+  "all_training_losses_finite": true,
+  "all_metric_values_recomputed_from_ranks": true,
+  "all_evaluated_checkpoint_hashes_match": true,
+  "all_eight_planned_contrasts_reported": true,
+  "paired_user_order_and_sample_rank_checks": "performed in analyze_sharing.py",
+  "full_rank_sort_and_direct_attention_checks": "performed in evaluation.py and checks.py"
+}

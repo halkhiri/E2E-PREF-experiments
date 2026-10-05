@@ -1,0 +1,11 @@
+{
+  "kind": "sasrec",
+  "seed": 501,
+  "lr": 0.001,
+  "best_epoch": 36,
+  "best_validation": 0.5619857679870355,
+  "seconds": 38.69244909286499,
+  "parameters": 884768,
+  "trainable_parameters": 884768,
+  "source_sha256": "a316fc5cc629a4c9cef70361b65358ca63afbc8e77675bcc54f100c294ef8bfd"
+}

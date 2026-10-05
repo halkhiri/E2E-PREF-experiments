@@ -1,0 +1,14 @@
+{
+  "movielens": {
+    "raw_event_reconstruction": true,
+    "identical_users_items_sequences_times": true,
+    "identical_candidates_graph_and_structured_features": true,
+    "text_vectors_reused": true
+  },
+  "amazon": {
+    "raw_event_reconstruction": true,
+    "identical_users_items_sequences_times": true,
+    "identical_candidates_graph_and_structured_features": true,
+    "text_vectors_reused": true
+  }
+}

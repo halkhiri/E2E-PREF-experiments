@@ -1,0 +1,32 @@
+{
+  "movielens": {
+    "training_history_median": 43.0,
+    "training_history_min": 8,
+    "training_history_max": 1116,
+    "training_history_exceeds30": 615,
+    "test_history_exceeds30": 622,
+    "users_with_timestamp_ties": 555,
+    "tied_adjacent_events": 13823,
+    "total_adjacent_events": 73833,
+    "test_eligible_catalog_min": 26161,
+    "test_eligible_catalog_max": 27269,
+    "test_eligible_catalog_mean": 27204.167,
+    "items_without_training_events": 20788,
+    "nonself_edges": 32777
+  },
+  "amazon": {
+    "training_history_median": 4.0,
+    "training_history_min": 3,
+    "training_history_max": 38,
+    "training_history_exceeds30": 4,
+    "test_history_exceeds30": 5,
+    "users_with_timestamp_ties": 935,
+    "tied_adjacent_events": 3077,
+    "total_adjacent_events": 6722,
+    "test_eligible_catalog_min": 861,
+    "test_eligible_catalog_max": 896,
+    "test_eligible_catalog_mean": 893.8443223443223,
+    "items_without_training_events": 16,
+    "nonself_edges": 1910
+  }
+}

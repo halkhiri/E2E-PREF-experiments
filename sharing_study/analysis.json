@@ -1,0 +1,1137 @@
+{
+  "metrics": [
+    {
+      "dataset": "movielens",
+      "model": "full",
+      "protocol": "catalog",
+      "metric": "NDCG@10",
+      "mean": 0.017755456240191154,
+      "std": 0.0013059748368020561,
+      "per_seed": [
+        0.017977690450432852,
+        0.018654071500746296,
+        0.019173806610027037,
+        0.017089966400815407,
+        0.015881746238934197
+      ]
+    },
+    {
+      "dataset": "movielens",
+      "model": "full",
+      "protocol": "catalog",
+      "metric": "Recall@20",
+      "mean": 0.0618,
+      "std": 0.0046043457732885375,
+      "per_seed": [
+        0.063,
+        0.069,
+        0.059,
+        0.057,
+        0.061
+      ]
+    },
+    {
+      "dataset": "movielens",
+      "model": "full",
+      "protocol": "catalog",
+      "metric": "MRR",
+      "mean": 0.01835973644950744,
+      "std": 0.0009931442382855643,
+      "per_seed": [
+        0.018449303177438273,
+        0.01814661012261213,
+        0.019956606823761266,
+        0.017264905427760078,
+        0.01798125669596545
+      ]
+    },
+    {
+      "dataset": "movielens",
+      "model": "full",
+      "protocol": "sampled",
+      "metric": "NDCG@10",
+      "mean": 0.5509090456677723,
+      "std": 0.003498040829312212,
+      "per_seed": [
+        0.5462335225698662,
+        0.5556153938339603,
+        0.5525002376523579,
+        0.5508354541475163,
+        0.5493606201351606
+      ]
+    },
+    {
+      "dataset": "movielens",
+      "model": "full",
+      "protocol": "sampled",
+      "metric": "Recall@20",
+      "mean": 0.9178000000000001,
+      "std": 0.004438468204234433,
+      "per_seed": [
+        0.923,
+        0.915,
+        0.912,
+        0.921,
+        0.918
+      ]
+    },
+    {
+      "dataset": "movielens",
+      "model": "full",
+      "protocol": "sampled",
+      "metric": "MRR",
+      "mean": 0.4774895541097378,
+      "std": 0.004942839798707193,
+      "per_seed": [
+        0.47125702099734396,
+        0.48410146353259575,
+        0.47893487964899367,
+        0.47896583370831186,
+        0.47418857266144393
+      ]
+    },
+    {
+      "dataset": "movielens",
+      "model": "separate",
+      "protocol": "catalog",
+      "metric": "NDCG@10",
+      "mean": 0.016755200139884838,
+      "std": 0.0021829346392668366,
+      "per_seed": [
+        0.016463260714961313,
+        0.017219967567539775,
+        0.019830244081396164,
+        0.013711872424394958,
+        0.01655065591113197
+      ]
+    },
+    {
+      "dataset": "movielens",
+      "model": "separate",
+      "protocol": "catalog",
+      "metric": "Recall@20",
+      "mean": 0.060399999999999995,
+      "std": 0.005029910535983718,
+      "per_seed": [
+        0.065,
+        0.06,
+        0.066,
+        0.056,
+        0.055
+      ]
+    },
+    {
+      "dataset": "movielens",
+      "model": "separate",
+      "protocol": "catalog",
+      "metric": "MRR",
+      "mean": 0.018003161178822953,
+      "std": 0.001551495664375004,
+      "per_seed": [
+        0.01751578613138484,
+        0.017535804621481615,
+        0.020364574659818294,
+        0.016158122378082597,
+        0.018441518103347418
+      ]
+    },
+    {
+      "dataset": "movielens",
+      "model": "separate",
+      "protocol": "sampled",
+      "metric": "NDCG@10",
+      "mean": 0.5505249154394246,
+      "std": 0.005177835155509361,
+      "per_seed": [
+        0.5492386943654695,
+        0.5550291810101688,
+        0.5482725034850959,
+        0.5437271347228432,
+        0.556357063613546
+      ]
+    },
+    {
+      "dataset": "movielens",
+      "model": "separate",
+      "protocol": "sampled",
+      "metric": "Recall@20",
+      "mean": 0.9134,
+      "std": 0.004979959839195498,
+      "per_seed": [
+        0.916,
+        0.909,
+        0.914,
+        0.908,
+        0.92
+      ]
+    },
+    {
+      "dataset": "movielens",
+      "model": "separate",
+      "protocol": "sampled",
+      "metric": "MRR",
+      "mean": 0.47545411680628363,
+      "std": 0.006112071721903133,
+      "per_seed": [
+        0.47125115778357324,
+        0.4826772448747349,
+        0.4733986033213306,
+        0.4688521148747351,
+        0.4810914631770441
+      ]
+    },
+    {
+      "dataset": "movielens",
+      "model": "shared_dual",
+      "protocol": "catalog",
+      "metric": "NDCG@10",
+      "mean": 0.017644079782667736,
+      "std": 0.0011757809555248918,
+      "per_seed": [
+        0.019187480647400917,
+        0.01776086117651104,
+        0.016639914236884733,
+        0.016338679004767962,
+        0.018293463847774034
+      ]
+    },
+    {
+      "dataset": "movielens",
+      "model": "shared_dual",
+      "protocol": "catalog",
+      "metric": "Recall@20",
+      "mean": 0.057999999999999996,
+      "std": 0.003872983346207417,
+      "per_seed": [
+        0.062,
+        0.061,
+        0.059,
+        0.055,
+        0.053
+      ]
+    },
+    {
+      "dataset": "movielens",
+      "model": "shared_dual",
+      "protocol": "catalog",
+      "metric": "MRR",
+      "mean": 0.017978357070357495,
+      "std": 0.0011742486530290188,
+      "per_seed": [
+        0.01887939087152811,
+        0.017378899028736752,
+        0.016833530850074756,
+        0.01724281658276557,
+        0.019557148018682285
+      ]
+    },
+    {
+      "dataset": "movielens",
+      "model": "shared_dual",
+      "protocol": "sampled",
+      "metric": "NDCG@10",
+      "mean": 0.5522409909170876,
+      "std": 0.0017259295124763126,
+      "per_seed": [
+        0.5496584560547785,
+        0.5538652193214347,
+        0.5524184015111993,
+        0.5515657576561542,
+        0.5536971200418712
+      ]
+    },
+    {
+      "dataset": "movielens",
+      "model": "shared_dual",
+      "protocol": "sampled",
+      "metric": "Recall@20",
+      "mean": 0.9168000000000001,
+      "std": 0.006685805860178718,
+      "per_seed": [
+        0.925,
+        0.912,
+        0.909,
+        0.922,
+        0.916
+      ]
+    },
+    {
+      "dataset": "movielens",
+      "model": "shared_dual",
+      "protocol": "sampled",
+      "metric": "MRR",
+      "mean": 0.4774875249176104,
+      "std": 0.002603583187274677,
+      "per_seed": [
+        0.47373917908780616,
+        0.4799172442025018,
+        0.4786812186635508,
+        0.47585762012143257,
+        0.47924236251276064
+      ]
+    },
+    {
+      "dataset": "amazon",
+      "model": "full",
+      "protocol": "catalog",
+      "metric": "NDCG@10",
+      "mean": 0.04987253095590859,
+      "std": 0.003396633613503998,
+      "per_seed": [
+        0.05000587164358283,
+        0.05090949732808405,
+        0.04925611308090682,
+        0.04487742819475174,
+        0.05431374453221746
+      ]
+    },
+    {
+      "dataset": "amazon",
+      "model": "full",
+      "protocol": "catalog",
+      "metric": "Recall@20",
+      "mean": 0.1360805860805861,
+      "std": 0.004651437765274831,
+      "per_seed": [
+        0.13095238095238096,
+        0.1336996336996337,
+        0.1336996336996337,
+        0.14102564102564102,
+        0.14102564102564102
+      ]
+    },
+    {
+      "dataset": "amazon",
+      "model": "full",
+      "protocol": "catalog",
+      "metric": "MRR",
+      "mean": 0.04384154829287164,
+      "std": 0.003032370542948698,
+      "per_seed": [
+        0.04402931382363564,
+        0.04538786740629067,
+        0.04207126883144089,
+        0.03990868497403044,
+        0.04781060642896056
+      ]
+    },
+    {
+      "dataset": "amazon",
+      "model": "full",
+      "protocol": "sampled",
+      "metric": "NDCG@10",
+      "mean": 0.1682482019542122,
+      "std": 0.0033556927549509637,
+      "per_seed": [
+        0.16247099830296208,
+        0.1684190078613187,
+        0.1703394359528698,
+        0.1692689015226928,
+        0.17074266613121764
+      ]
+    },
+    {
+      "dataset": "amazon",
+      "model": "full",
+      "protocol": "sampled",
+      "metric": "Recall@20",
+      "mean": 0.3747252747252747,
+      "std": 0.0031323500689536647,
+      "per_seed": [
+        0.37637362637362637,
+        0.37454212454212454,
+        0.3717948717948718,
+        0.3717948717948718,
+        0.3791208791208791
+      ]
+    },
+    {
+      "dataset": "amazon",
+      "model": "full",
+      "protocol": "sampled",
+      "metric": "MRR",
+      "mean": 0.1516182416343735,
+      "std": 0.0031280000166508414,
+      "per_seed": [
+        0.1467734907416541,
+        0.15135230148538945,
+        0.15430668461389302,
+        0.151181058571836,
+        0.15447767275909502
+      ]
+    },
+    {
+      "dataset": "amazon",
+      "model": "separate",
+      "protocol": "catalog",
+      "metric": "NDCG@10",
+      "mean": 0.04800850561663842,
+      "std": 0.004509015536893855,
+      "per_seed": [
+        0.042792233989469575,
+        0.04909888554180205,
+        0.048213096203445785,
+        0.045215404610895085,
+        0.05472290773757961
+      ]
+    },
+    {
+      "dataset": "amazon",
+      "model": "separate",
+      "protocol": "catalog",
+      "metric": "Recall@20",
+      "mean": 0.1371794871794872,
+      "std": 0.005509746870509638,
+      "per_seed": [
+        0.1391941391941392,
+        0.13003663003663005,
+        0.13278388278388278,
+        0.14285714285714285,
+        0.14102564102564102
+      ]
+    },
+    {
+      "dataset": "amazon",
+      "model": "separate",
+      "protocol": "catalog",
+      "metric": "MRR",
+      "mean": 0.04235384191117032,
+      "std": 0.00349441110425442,
+      "per_seed": [
+        0.03887456627788144,
+        0.043251863300194475,
+        0.041374061146385366,
+        0.040350751415404784,
+        0.047917967415985516
+      ]
+    },
+    {
+      "dataset": "amazon",
+      "model": "separate",
+      "protocol": "sampled",
+      "metric": "NDCG@10",
+      "mean": 0.1681909152762921,
+      "std": 0.0029050180394058563,
+      "per_seed": [
+        0.16784226353803586,
+        0.16566041579097923,
+        0.16512014276059647,
+        0.1709410511435896,
+        0.17139070314825927
+      ]
+    },
+    {
+      "dataset": "amazon",
+      "model": "separate",
+      "protocol": "sampled",
+      "metric": "Recall@20",
+      "mean": 0.3738095238095238,
+      "std": 0.00840298149960033,
+      "per_seed": [
+        0.3608058608058608,
+        0.3717948717948718,
+        0.3791208791208791,
+        0.37454212454212454,
+        0.38278388278388276
+      ]
+    },
+    {
+      "dataset": "amazon",
+      "model": "separate",
+      "protocol": "sampled",
+      "metric": "MRR",
+      "mean": 0.15092764242735843,
+      "std": 0.003186543201873177,
+      "per_seed": [
+        0.1505187547042298,
+        0.14812505669285922,
+        0.14822874502060557,
+        0.15190239037620898,
+        0.15586326534288866
+      ]
+    },
+    {
+      "dataset": "amazon",
+      "model": "shared_dual",
+      "protocol": "catalog",
+      "metric": "NDCG@10",
+      "mean": 0.04846382401762235,
+      "std": 0.003666029114375013,
+      "per_seed": [
+        0.04677173591178729,
+        0.04583702406235894,
+        0.04937965022601191,
+        0.04584293171873345,
+        0.054487778169220145
+      ]
+    },
+    {
+      "dataset": "amazon",
+      "model": "shared_dual",
+      "protocol": "catalog",
+      "metric": "Recall@20",
+      "mean": 0.1355311355311355,
+      "std": 0.004669431789004387,
+      "per_seed": [
+        0.13553113553113552,
+        0.1282051282051282,
+        0.13553113553113552,
+        0.13736263736263737,
+        0.14102564102564102
+      ]
+    },
+    {
+      "dataset": "amazon",
+      "model": "shared_dual",
+      "protocol": "catalog",
+      "metric": "MRR",
+      "mean": 0.042597902809363715,
+      "std": 0.003081820601356211,
+      "per_seed": [
+        0.042101290940618555,
+        0.04044749059441651,
+        0.04169443558542277,
+        0.040767574337893527,
+        0.04797872258846723
+      ]
+    },
+    {
+      "dataset": "amazon",
+      "model": "shared_dual",
+      "protocol": "sampled",
+      "metric": "NDCG@10",
+      "mean": 0.16882714675282456,
+      "std": 0.003890797224234565,
+      "per_seed": [
+        0.16927107440104405,
+        0.16240656217913088,
+        0.16932923233910635,
+        0.1701689614399685,
+        0.1729599034048731
+      ]
+    },
+    {
+      "dataset": "amazon",
+      "model": "shared_dual",
+      "protocol": "sampled",
+      "metric": "Recall@20",
+      "mean": 0.37454212454212454,
+      "std": 0.007579187434636832,
+      "per_seed": [
+        0.38186813186813184,
+        0.3617216117216117,
+        0.3772893772893773,
+        0.37637362637362637,
+        0.37545787545787546
+      ]
+    },
+    {
+      "dataset": "amazon",
+      "model": "shared_dual",
+      "protocol": "sampled",
+      "metric": "MRR",
+      "mean": 0.15213236932114155,
+      "std": 0.0043089878052613795,
+      "per_seed": [
+        0.15335790490610382,
+        0.14489852454351176,
+        0.15435494405837066,
+        0.15198399614893227,
+        0.15606647694878903
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "dataset": "movielens",
+      "protocol": "catalog",
+      "left": "full",
+      "right": "separate",
+      "difference": 0.0010002561003063235,
+      "low": -0.0016371692385363393,
+      "high": 0.0037294650151501268,
+      "per_seed": [
+        0.0015144297354715416,
+        0.0014341039332065276,
+        -0.0006564374713691237,
+        0.0033780939764204466,
+        -0.0006689096721977731
+      ],
+      "positive_seeds": 3
+    },
+    {
+      "dataset": "movielens",
+      "protocol": "catalog",
+      "left": "shared_dual",
+      "right": "separate",
+      "difference": 0.0008888796427829032,
+      "low": -0.002082034977669179,
+      "high": 0.003716953602491143,
+      "per_seed": [
+        0.0027242199324396033,
+        0.0005408936089712697,
+        -0.0031903298445114265,
+        0.0026268065803730025,
+        0.0017428079366420652
+      ],
+      "positive_seeds": 4
+    },
+    {
+      "dataset": "movielens",
+      "protocol": "sampled",
+      "left": "full",
+      "right": "separate",
+      "difference": 0.00038413022834755245,
+      "low": -0.006567715324355057,
+      "high": 0.007456339335244895,
+      "per_seed": [
+        -0.003005171795603278,
+        0.0005862128237914708,
+        0.004227734167261847,
+        0.00710831942467314,
+        -0.006996443478385418
+      ],
+      "positive_seeds": 3
+    },
+    {
+      "dataset": "movielens",
+      "protocol": "sampled",
+      "left": "shared_dual",
+      "right": "separate",
+      "difference": 0.0017160754776629273,
+      "low": -0.003334014865558545,
+      "high": 0.007546882957460425,
+      "per_seed": [
+        0.0004197616893091014,
+        -0.001163961688734052,
+        0.004145898026103274,
+        0.00783862293331112,
+        -0.002659943571674807
+      ],
+      "positive_seeds": 3
+    },
+    {
+      "dataset": "amazon",
+      "protocol": "catalog",
+      "left": "full",
+      "right": "separate",
+      "difference": 0.0018640253392701604,
+      "low": -0.0005653558259626451,
+      "high": 0.005576272346771218,
+      "per_seed": [
+        0.007213637654113263,
+        0.0018106117862820006,
+        0.0010430168774610334,
+        -0.0003379764161433539,
+        -0.00040916320536214335
+      ],
+      "positive_seeds": 3
+    },
+    {
+      "dataset": "amazon",
+      "protocol": "catalog",
+      "left": "shared_dual",
+      "right": "separate",
+      "difference": 0.00045531840098392827,
+      "low": -0.0026937728297708892,
+      "high": 0.0038325774690457035,
+      "per_seed": [
+        0.003979501922317732,
+        -0.003261861479443116,
+        0.001166554022566124,
+        0.000627527107838367,
+        -0.00023512956835946498
+      ],
+      "positive_seeds": 3
+    },
+    {
+      "dataset": "amazon",
+      "protocol": "sampled",
+      "left": "full",
+      "right": "separate",
+      "difference": 5.728667792011026e-05,
+      "low": -0.004202397267641719,
+      "high": 0.00407260309459481,
+      "per_seed": [
+        -0.005371265235073791,
+        0.002758592070339432,
+        0.005219293192273344,
+        -0.0016721496208968152,
+        -0.000648037017041618
+      ],
+      "positive_seeds": 2
+    },
+    {
+      "dataset": "amazon",
+      "protocol": "sampled",
+      "left": "shared_dual",
+      "right": "separate",
+      "difference": 0.0006362314765324874,
+      "low": -0.0031836962722867077,
+      "high": 0.004322537370280601,
+      "per_seed": [
+        0.0014288108630081825,
+        -0.003253853611848374,
+        0.004209089578509896,
+        -0.0007720897036211064,
+        0.0015692002566138384
+      ],
+      "positive_seeds": 3
+    }
+  ],
+  "training": [
+    {
+      "dataset": "movielens",
+      "model": "full",
+      "kind": "full",
+      "seed": 101,
+      "lr": 0.003,
+      "best_epoch": 50,
+      "best_validation": 0.5696251916488462,
+      "seconds": 342.324942111969,
+      "parameters": 989264,
+      "trainable_parameters": 989264,
+      "source_sha256": "a316fc5cc629a4c9cef70361b65358ca63afbc8e77675bcc54f100c294ef8bfd"
+    },
+    {
+      "dataset": "movielens",
+      "model": "full",
+      "kind": "full",
+      "seed": 102,
+      "lr": 0.003,
+      "best_epoch": 44,
+      "best_validation": 0.569352592089904,
+      "seconds": 361.8434190750122,
+      "parameters": 989264,
+      "trainable_parameters": 989264,
+      "source_sha256": "a316fc5cc629a4c9cef70361b65358ca63afbc8e77675bcc54f100c294ef8bfd"
+    },
+    {
+      "dataset": "movielens",
+      "model": "full",
+      "kind": "full",
+      "seed": 103,
+      "lr": 0.003,
+      "best_epoch": 39,
+      "best_validation": 0.5723533100545495,
+      "seconds": 329.9632680416107,
+      "parameters": 989264,
+      "trainable_parameters": 989264,
+      "source_sha256": "a316fc5cc629a4c9cef70361b65358ca63afbc8e77675bcc54f100c294ef8bfd"
+    },
+    {
+      "dataset": "movielens",
+      "model": "full",
+      "kind": "full",
+      "seed": 104,
+      "lr": 0.003,
+      "best_epoch": 49,
+      "best_validation": 0.5644990420182423,
+      "seconds": 361.7264459133148,
+      "parameters": 989264,
+      "trainable_parameters": 989264,
+      "source_sha256": "a316fc5cc629a4c9cef70361b65358ca63afbc8e77675bcc54f100c294ef8bfd"
+    },
+    {
+      "dataset": "movielens",
+      "model": "full",
+      "kind": "full",
+      "seed": 105,
+      "lr": 0.003,
+      "best_epoch": 37,
+      "best_validation": 0.5684685985044625,
+      "seconds": 360.8015470504761,
+      "parameters": 989264,
+      "trainable_parameters": 989264,
+      "source_sha256": "a316fc5cc629a4c9cef70361b65358ca63afbc8e77675bcc54f100c294ef8bfd"
+    },
+    {
+      "dataset": "movielens",
+      "model": "separate",
+      "kind": "separate",
+      "seed": 101,
+      "lr": 0.01,
+      "best_epoch": 25,
+      "best_validation": 0.5711683657554624,
+      "seconds": 259.1019809246063,
+      "parameters": 1864496,
+      "trainable_parameters": 1864496,
+      "source_sha256": "a316fc5cc629a4c9cef70361b65358ca63afbc8e77675bcc54f100c294ef8bfd"
+    },
+    {
+      "dataset": "movielens",
+      "model": "separate",
+      "kind": "separate",
+      "seed": 102,
+      "lr": 0.01,
+      "best_epoch": 28,
+      "best_validation": 0.5704280306902983,
+      "seconds": 258.73974609375,
+      "parameters": 1864496,
+      "trainable_parameters": 1864496,
+      "source_sha256": "a316fc5cc629a4c9cef70361b65358ca63afbc8e77675bcc54f100c294ef8bfd"
+    },
+    {
+      "dataset": "movielens",
+      "model": "separate",
+      "kind": "separate",
+      "seed": 103,
+      "lr": 0.01,
+      "best_epoch": 36,
+      "best_validation": 0.5747839550659228,
+      "seconds": 259.1753730773926,
+      "parameters": 1864496,
+      "trainable_parameters": 1864496,
+      "source_sha256": "a316fc5cc629a4c9cef70361b65358ca63afbc8e77675bcc54f100c294ef8bfd"
+    },
+    {
+      "dataset": "movielens",
+      "model": "separate",
+      "kind": "separate",
+      "seed": 104,
+      "lr": 0.01,
+      "best_epoch": 18,
+      "best_validation": 0.5643162917922844,
+      "seconds": 258.45162177085876,
+      "parameters": 1864496,
+      "trainable_parameters": 1864496,
+      "source_sha256": "a316fc5cc629a4c9cef70361b65358ca63afbc8e77675bcc54f100c294ef8bfd"
+    },
+    {
+      "dataset": "movielens",
+      "model": "separate",
+      "kind": "separate",
+      "seed": 105,
+      "lr": 0.01,
+      "best_epoch": 28,
+      "best_validation": 0.5713614800691665,
+      "seconds": 262.80065512657166,
+      "parameters": 1864496,
+      "trainable_parameters": 1864496,
+      "source_sha256": "a316fc5cc629a4c9cef70361b65358ca63afbc8e77675bcc54f100c294ef8bfd"
+    },
+    {
+      "dataset": "movielens",
+      "model": "shared_dual",
+      "kind": "shared_dual",
+      "seed": 101,
+      "lr": 0.01,
+      "best_epoch": 49,
+      "best_validation": 0.5684086369883116,
+      "seconds": 262.80068922042847,
+      "parameters": 1864496,
+      "trainable_parameters": 1864496,
+      "source_sha256": "a316fc5cc629a4c9cef70361b65358ca63afbc8e77675bcc54f100c294ef8bfd"
+    },
+    {
+      "dataset": "movielens",
+      "model": "shared_dual",
+      "kind": "shared_dual",
+      "seed": 102,
+      "lr": 0.01,
+      "best_epoch": 28,
+      "best_validation": 0.5706855061371965,
+      "seconds": 262.6255600452423,
+      "parameters": 1864496,
+      "trainable_parameters": 1864496,
+      "source_sha256": "a316fc5cc629a4c9cef70361b65358ca63afbc8e77675bcc54f100c294ef8bfd"
+    },
+    {
+      "dataset": "movielens",
+      "model": "shared_dual",
+      "kind": "shared_dual",
+      "seed": 103,
+      "lr": 0.01,
+      "best_epoch": 33,
+      "best_validation": 0.5743351207602511,
+      "seconds": 263.1690080165863,
+      "parameters": 1864496,
+      "trainable_parameters": 1864496,
+      "source_sha256": "a316fc5cc629a4c9cef70361b65358ca63afbc8e77675bcc54f100c294ef8bfd"
+    },
+    {
+      "dataset": "movielens",
+      "model": "shared_dual",
+      "kind": "shared_dual",
+      "seed": 104,
+      "lr": 0.01,
+      "best_epoch": 47,
+      "best_validation": 0.5645330654285823,
+      "seconds": 274.94135332107544,
+      "parameters": 1864496,
+      "trainable_parameters": 1864496,
+      "source_sha256": "a316fc5cc629a4c9cef70361b65358ca63afbc8e77675bcc54f100c294ef8bfd"
+    },
+    {
+      "dataset": "movielens",
+      "model": "shared_dual",
+      "kind": "shared_dual",
+      "seed": 105,
+      "lr": 0.01,
+      "best_epoch": 28,
+      "best_validation": 0.5690007512072963,
+      "seconds": 274.6192030906677,
+      "parameters": 1864496,
+      "trainable_parameters": 1864496,
+      "source_sha256": "a316fc5cc629a4c9cef70361b65358ca63afbc8e77675bcc54f100c294ef8bfd"
+    },
+    {
+      "dataset": "amazon",
+      "model": "full",
+      "kind": "full",
+      "seed": 101,
+      "lr": 0.01,
+      "best_epoch": 13,
+      "best_validation": 0.17700744983951947,
+      "seconds": 231.03305983543396,
+      "parameters": 124614,
+      "trainable_parameters": 124614,
+      "source_sha256": "a316fc5cc629a4c9cef70361b65358ca63afbc8e77675bcc54f100c294ef8bfd"
+    },
+    {
+      "dataset": "amazon",
+      "model": "full",
+      "kind": "full",
+      "seed": 102,
+      "lr": 0.01,
+      "best_epoch": 49,
+      "best_validation": 0.1757816556095367,
+      "seconds": 235.97755217552185,
+      "parameters": 124614,
+      "trainable_parameters": 124614,
+      "source_sha256": "a316fc5cc629a4c9cef70361b65358ca63afbc8e77675bcc54f100c294ef8bfd"
+    },
+    {
+      "dataset": "amazon",
+      "model": "full",
+      "kind": "full",
+      "seed": 103,
+      "lr": 0.01,
+      "best_epoch": 35,
+      "best_validation": 0.17603247086402732,
+      "seconds": 228.59800386428833,
+      "parameters": 124614,
+      "trainable_parameters": 124614,
+      "source_sha256": "a316fc5cc629a4c9cef70361b65358ca63afbc8e77675bcc54f100c294ef8bfd"
+    },
+    {
+      "dataset": "amazon",
+      "model": "full",
+      "kind": "full",
+      "seed": 104,
+      "lr": 0.01,
+      "best_epoch": 32,
+      "best_validation": 0.17920590617143078,
+      "seconds": 223.7865810394287,
+      "parameters": 124614,
+      "trainable_parameters": 124614,
+      "source_sha256": "a316fc5cc629a4c9cef70361b65358ca63afbc8e77675bcc54f100c294ef8bfd"
+    },
+    {
+      "dataset": "amazon",
+      "model": "full",
+      "kind": "full",
+      "seed": 105,
+      "lr": 0.01,
+      "best_epoch": 43,
+      "best_validation": 0.1769331223176202,
+      "seconds": 581.93092918396,
+      "parameters": 124614,
+      "trainable_parameters": 124614,
+      "source_sha256": "a316fc5cc629a4c9cef70361b65358ca63afbc8e77675bcc54f100c294ef8bfd"
+    },
+    {
+      "dataset": "amazon",
+      "model": "separate",
+      "kind": "separate",
+      "seed": 101,
+      "lr": 0.01,
+      "best_epoch": 30,
+      "best_validation": 0.1737311794564179,
+      "seconds": 146.202712059021,
+      "parameters": 155750,
+      "trainable_parameters": 155750,
+      "source_sha256": "a316fc5cc629a4c9cef70361b65358ca63afbc8e77675bcc54f100c294ef8bfd"
+    },
+    {
+      "dataset": "amazon",
+      "model": "separate",
+      "kind": "separate",
+      "seed": 102,
+      "lr": 0.01,
+      "best_epoch": 49,
+      "best_validation": 0.17580638459738887,
+      "seconds": 146.33387184143066,
+      "parameters": 155750,
+      "trainable_parameters": 155750,
+      "source_sha256": "a316fc5cc629a4c9cef70361b65358ca63afbc8e77675bcc54f100c294ef8bfd"
+    },
+    {
+      "dataset": "amazon",
+      "model": "separate",
+      "kind": "separate",
+      "seed": 103,
+      "lr": 0.01,
+      "best_epoch": 40,
+      "best_validation": 0.17715212094703855,
+      "seconds": 150.68003678321838,
+      "parameters": 155750,
+      "trainable_parameters": 155750,
+      "source_sha256": "a316fc5cc629a4c9cef70361b65358ca63afbc8e77675bcc54f100c294ef8bfd"
+    },
+    {
+      "dataset": "amazon",
+      "model": "separate",
+      "kind": "separate",
+      "seed": 104,
+      "lr": 0.01,
+      "best_epoch": 32,
+      "best_validation": 0.18049604367363653,
+      "seconds": 150.99948382377625,
+      "parameters": 155750,
+      "trainable_parameters": 155750,
+      "source_sha256": "a316fc5cc629a4c9cef70361b65358ca63afbc8e77675bcc54f100c294ef8bfd"
+    },
+    {
+      "dataset": "amazon",
+      "model": "separate",
+      "kind": "separate",
+      "seed": 105,
+      "lr": 0.01,
+      "best_epoch": 43,
+      "best_validation": 0.17681237242839185,
+      "seconds": 198.15233206748962,
+      "parameters": 155750,
+      "trainable_parameters": 155750,
+      "source_sha256": "a316fc5cc629a4c9cef70361b65358ca63afbc8e77675bcc54f100c294ef8bfd"
+    },
+    {
+      "dataset": "amazon",
+      "model": "shared_dual",
+      "kind": "shared_dual",
+      "seed": 101,
+      "lr": 0.01,
+      "best_epoch": 6,
+      "best_validation": 0.1750083553982812,
+      "seconds": 198.62075805664062,
+      "parameters": 155750,
+      "trainable_parameters": 155750,
+      "source_sha256": "a316fc5cc629a4c9cef70361b65358ca63afbc8e77675bcc54f100c294ef8bfd"
+    },
+    {
+      "dataset": "amazon",
+      "model": "shared_dual",
+      "kind": "shared_dual",
+      "seed": 102,
+      "lr": 0.01,
+      "best_epoch": 19,
+      "best_validation": 0.17623506428621655,
+      "seconds": 198.15466713905334,
+      "parameters": 155750,
+      "trainable_parameters": 155750,
+      "source_sha256": "a316fc5cc629a4c9cef70361b65358ca63afbc8e77675bcc54f100c294ef8bfd"
+    },
+    {
+      "dataset": "amazon",
+      "model": "shared_dual",
+      "kind": "shared_dual",
+      "seed": 103,
+      "lr": 0.01,
+      "best_epoch": 35,
+      "best_validation": 0.17610371336304279,
+      "seconds": 197.8405430316925,
+      "parameters": 155750,
+      "trainable_parameters": 155750,
+      "source_sha256": "a316fc5cc629a4c9cef70361b65358ca63afbc8e77675bcc54f100c294ef8bfd"
+    },
+    {
+      "dataset": "amazon",
+      "model": "shared_dual",
+      "kind": "shared_dual",
+      "seed": 104,
+      "lr": 0.01,
+      "best_epoch": 32,
+      "best_validation": 0.17900656629870854,
+      "seconds": 145.66535091400146,
+      "parameters": 155750,
+      "trainable_parameters": 155750,
+      "source_sha256": "a316fc5cc629a4c9cef70361b65358ca63afbc8e77675bcc54f100c294ef8bfd"
+    },
+    {
+      "dataset": "amazon",
+      "model": "shared_dual",
+      "kind": "shared_dual",
+      "seed": 105,
+      "lr": 0.01,
+      "best_epoch": 43,
+      "best_validation": 0.17827219257048724,
+      "seconds": 145.49261808395386,
+      "parameters": 155750,
+      "trainable_parameters": 155750,
+      "source_sha256": "a316fc5cc629a4c9cef70361b65358ca63afbc8e77675bcc54f100c294ef8bfd"
+    }
+  ],
+  "rank_hashes": {
+    "evaluation/full/101/catalog.npz|movielens": "5553c2a6429b6ac35157831681f039b36d1caa20452d98b63b0cb2d3571f25c5",
+    "evaluation/full/102/catalog.npz|movielens": "f09b27290dcff687f951d44850acd6be263e53e7fe7f688f35fd08c4c714265d",
+    "evaluation/full/103/catalog.npz|movielens": "8440a899077125a84c3fe36d967d547d4ddd3e0d94c29cf544b41c994edefe9c",
+    "evaluation/full/104/catalog.npz|movielens": "1bc1232fe39e62a04726c14285694081a02ebff485ae6f02524c91001a254973",
+    "evaluation/full/105/catalog.npz|movielens": "4207e0d722cbeb0ab9e687984b69208c5be968c7f3832ac0c868ed0a0bc7ee9b",
+    "evaluation/full/101/sampled.npz|movielens": "e58e21454c448c85e46ae0a5a6015fbe0d64be968b83eaba97aab44021a48e30",
+    "evaluation/full/102/sampled.npz|movielens": "1a749a20edb888f88278f8f49b4e70456742da5f9b133ef9fccd1c337166edaa",
+    "evaluation/full/103/sampled.npz|movielens": "816b6e289f16c7ca270680503fce9842424428354d063aa97283d253efe6d7dd",
+    "evaluation/full/104/sampled.npz|movielens": "41c123ebb3fc9ba97930c06faaf1bff1e6c3ce099eb13823d25783bd46f7878b",
+    "evaluation/full/105/sampled.npz|movielens": "aae676fc12de7431b1a3a6f90df1196582643501f9f4000c8061eb01c329710c",
+    "evaluation/separate/101/catalog.npz|movielens": "ea07739ce4de184c720b3ce75efeee2c5ad6b7cbdb553c4c51b7fa2c9b311199",
+    "evaluation/separate/102/catalog.npz|movielens": "af1cc36f6bccbafd76478a5c90a70dbf855671700a04ed73a386dfdf2a31dd75",
+    "evaluation/separate/103/catalog.npz|movielens": "e88e46330c5831510e52c4ab0d9dc07c3ece04acd80e9e23e0dc0b606d5d14d9",
+    "evaluation/separate/104/catalog.npz|movielens": "33e3206631465746374658c4862495283b38cb3bc22e47a9227bffc75aaa2a7c",
+    "evaluation/separate/105/catalog.npz|movielens": "be531355f20e9b972c184a9ac5c3d8454d9e552368074ae8925683f5d231a9c6",
+    "evaluation/separate/101/sampled.npz|movielens": "0d88980158f24411489ea6b945bc8b48e7f4f7eb304194b8cc54730f45638595",
+    "evaluation/separate/102/sampled.npz|movielens": "db6a8038e0efcac6206d5ca32f91f3af1186deeaf56605a4dde6326987abe90a",
+    "evaluation/separate/103/sampled.npz|movielens": "6a14665fe44307d8bba80bfbb1ca50b85f093c413eee77e181fc93537022e842",
+    "evaluation/separate/104/sampled.npz|movielens": "677902e317c0949ff9df92ff8ee1a239003dc34424824e87958920c27fff60a1",
+    "evaluation/separate/105/sampled.npz|movielens": "9a20ffa627111d5217f52be0b21f29b4f09a95fd43985cf01376a90baf58b84a",
+    "evaluation/shared_dual/101/catalog.npz|movielens": "3d8ab5c71395ed701cff5c20caf8cfb1aa2b49f876568e465fc433db62b6fc59",
+    "evaluation/shared_dual/102/catalog.npz|movielens": "39f50250e4f6400eddcef0b30153ccf63afd9d20aebff17a7f101b241046d6e5",
+    "evaluation/shared_dual/103/catalog.npz|movielens": "92b5afb9b5e89464886d6b69a6f93db25075f04ceaea0ccfaaed5b80cdfdfdae",
+    "evaluation/shared_dual/104/catalog.npz|movielens": "200b8ec03df2b1e4f9b02fd0293713d5e68358c3b5feb039acc39de35a640733",
+    "evaluation/shared_dual/105/catalog.npz|movielens": "683b1ea888c507e15d13f9534ac2ad71526cdaa7b5273d494d8b3e40e5f6c1eb",
+    "evaluation/shared_dual/101/sampled.npz|movielens": "9b7d6d762cf750e6dbec78a7792a8ac3c2d2fdab5be6c67f526166b7acc628d1",
+    "evaluation/shared_dual/102/sampled.npz|movielens": "b14efebc99ad4376158ea49e07ddbb5b3b97cf7ec892798d3ac011dcb617d801",
+    "evaluation/shared_dual/103/sampled.npz|movielens": "058d96b722cb302760ddbbcdb87b38e5c69b0a1137add867f4b02154ea2ebfac",
+    "evaluation/shared_dual/104/sampled.npz|movielens": "0030f410e1e5a0cb65b2a44ee1c52832603cedb725dd0a8ec55ce6d3f1e94e7f",
+    "evaluation/shared_dual/105/sampled.npz|movielens": "2e9bdb3c3fc6e316a3ced9bcdb04ee91dcfde3b3a853110b8dfc0538a969f158",
+    "evaluation/full/101/catalog.npz|amazon": "8f604d61978f5a00b0ea52d17406486562c3604aafbc7f3b81d3478663bab06c",
+    "evaluation/full/102/catalog.npz|amazon": "8f0893193efc92e6d415130665fb73d3e32ec03cd13dea6c9edd4a050be218fe",
+    "evaluation/full/103/catalog.npz|amazon": "7a7d23fd080a5779d8c05839de3cde5b1e60b9c6b4235926056512496f2bc44e",
+    "evaluation/full/104/catalog.npz|amazon": "a37fba1070edd90052c517640b557f4e342824fb4195d92d20000e4aabadd512",
+    "evaluation/full/105/catalog.npz|amazon": "6d1685af063571f996f5194086a064e0fd84d1dacdc2581e456eaa754748a727",
+    "evaluation/full/101/sampled.npz|amazon": "51f51a64ff2e6b900aade4657d26d1e6826d59322b36940ea6e8fb54d0c96349",
+    "evaluation/full/102/sampled.npz|amazon": "6253515695612540a5cb7d2b90a9fb29d0edeb9b7e38a77d0aef507487a93ffc",
+    "evaluation/full/103/sampled.npz|amazon": "ee29cced582f2d0bb150e6329b862564b637400b05ba2056e7607fe5e8b721b2",
+    "evaluation/full/104/sampled.npz|amazon": "bef2da041fbf5e739149b78e2aaa7607f19928c388b959dfa911c27c14f7e869",
+    "evaluation/full/105/sampled.npz|amazon": "4891219d36b5bd6f789ba07b5936d367eedb38d08a06d5c2723d97bfa943b84b",
+    "evaluation/separate/101/catalog.npz|amazon": "5de0d9c8cec64f171cb550ba98a02b249fe0a5789f8e50c37f8d0f924720b396",
+    "evaluation/separate/102/catalog.npz|amazon": "08a9cfae981c7c306496fcae069cfcf35b3fe556c65cd6ffe8abc72a9152ca70",
+    "evaluation/separate/103/catalog.npz|amazon": "ceb78b6862e2a8b7959d6896966acd60d912b38e1fc0a719c6691c7bf68460d9",
+    "evaluation/separate/104/catalog.npz|amazon": "c19913ebd28d717ab498aeded615d0eac982aca3c93072a5d1c203a438773696",
+    "evaluation/separate/105/catalog.npz|amazon": "5c8a6e1cb8a95c1ae478af2be0e3f8057f660f45f2622478e1724ed8c98ace3e",
+    "evaluation/separate/101/sampled.npz|amazon": "1bc065185c69ef3c4114987b5456c50f13c9414de69acaedf04238363abd7b9f",
+    "evaluation/separate/102/sampled.npz|amazon": "d52b449311e8b7c454bd135d47fce248a749123368416357592f8c150a8489f3",
+    "evaluation/separate/103/sampled.npz|amazon": "85da9c3291c40cf7327ab8b5eed366a9a911a7b96b9e7f432c3f23f371c7c33b",
+    "evaluation/separate/104/sampled.npz|amazon": "b4fa9a7ea6be1f997267ee0f59e7238e5e386ec7a85e21e4521be2fdc8b4e156",
+    "evaluation/separate/105/sampled.npz|amazon": "c72421d2cb4a4d8b7a4f6b4bf2a628adf9fcd87936a1687368b9909db424d888",
+    "evaluation/shared_dual/101/catalog.npz|amazon": "1a6d5fe73846e378c9e0498c6d423009d3e453ca3b9428c0d67f38c73e4c2849",
+    "evaluation/shared_dual/102/catalog.npz|amazon": "10aff6789cb774cf3e264f206b8cc7744c15514a53d0d5d212c071c843e534ae",
+    "evaluation/shared_dual/103/catalog.npz|amazon": "d2c74edc3d1aeaada41aa2d60f6f79fb20f8af64820409c3cf66f9035c406876",
+    "evaluation/shared_dual/104/catalog.npz|amazon": "d229391219e642cf7855fd34796b0140ba543919a3ec7c441fe8a97216a984fc",
+    "evaluation/shared_dual/105/catalog.npz|amazon": "9cd89848a10ba1b507bfe311e139a635d7430819f4022e33ec535b5da7b4913e",
+    "evaluation/shared_dual/101/sampled.npz|amazon": "22e61afab860966fcd5ebf66d79994fae3cedc80da816b204471e5b16b904006",
+    "evaluation/shared_dual/102/sampled.npz|amazon": "d8df8670b97f900eef267beb2f9873837fea45f2646aa080d6d1d6bda0371ee4",
+    "evaluation/shared_dual/103/sampled.npz|amazon": "e3f4b09e913eba038fbb781ef4c2922e8775dc66bef524c0210534541d9bcacb",
+    "evaluation/shared_dual/104/sampled.npz|amazon": "1a37b362040dfc7ceed026868ec342e88304353abd45b15fc1e7dae4675bba41",
+    "evaluation/shared_dual/105/sampled.npz|amazon": "56240bf8e7d5850e120fe15b9275dd05eb5e10f630af07aa12e2344d48a52b11"
+  },
+  "protocol_sha256": "53992c4ad737aa301e55594a0d6caeed0792917c883ec11d475750ba6f5d2a9f"
+}

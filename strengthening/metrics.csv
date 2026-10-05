@@ -1,0 +1,181 @@
+dataset,model,label,protocol,metric,mean,std,n_runs
+movielens,full,E2E-PREF ranking only,sampled,NDCG@10,0.5509090456677723,0.003498040829312212,5
+movielens,full,E2E-PREF ranking only,sampled,Recall@20,0.9178000000000001,0.004438468204234433,5
+movielens,full,E2E-PREF ranking only,sampled,MRR,0.4774895541097378,0.004942839798707193,5
+movielens,full,E2E-PREF ranking only,catalog,NDCG@10,0.017755456240191154,0.0013059748368020561,5
+movielens,full,E2E-PREF ranking only,catalog,Recall@20,0.0618,0.0046043457732885375,5
+movielens,full,E2E-PREF ranking only,catalog,MRR,0.01835973644950744,0.0009931442382855643,5
+movielens,no_graph,Without graph encoder,sampled,NDCG@10,0.5431930904753808,0.004582731935426617,5
+movielens,no_graph,Without graph encoder,sampled,Recall@20,0.8855999999999999,0.009633275663033845,5
+movielens,no_graph,Without graph encoder,sampled,MRR,0.46974575476458325,0.00559890753073422,5
+movielens,no_graph,Without graph encoder,catalog,NDCG@10,0.018984052631390334,0.0017325349227639106,5
+movielens,no_graph,Without graph encoder,catalog,Recall@20,0.0628,0.0027748873851023243,5
+movielens,no_graph,Without graph encoder,catalog,MRR,0.01895276383882453,0.001741014916557011,5
+movielens,no_temporal,Mean history instead of temporal encoder,sampled,NDCG@10,0.6049918213039607,0.006769060901136961,5
+movielens,no_temporal,Mean history instead of temporal encoder,sampled,Recall@20,0.9179999999999999,0.0023452078799117166,5
+movielens,no_temporal,Mean history instead of temporal encoder,sampled,MRR,0.5351299753359487,0.008507277826716701,5
+movielens,no_temporal,Mean history instead of temporal encoder,catalog,NDCG@10,0.01885926446440276,0.0017930448013210375,5
+movielens,no_temporal,Mean history instead of temporal encoder,catalog,Recall@20,0.0792,0.010639548862616305,5
+movielens,no_temporal,Mean history instead of temporal encoder,catalog,MRR,0.021163913935940547,0.0010226660509060012,5
+movielens,no_text,Without frozen text features,sampled,NDCG@10,0.5535501671799932,0.0024811493104566614,5
+movielens,no_text,Without frozen text features,sampled,Recall@20,0.9116,0.004393176527297763,5
+movielens,no_text,Without frozen text features,sampled,MRR,0.4807513301701219,0.0034694383848368326,5
+movielens,no_text,Without frozen text features,catalog,NDCG@10,0.017145291241516654,0.0019787164048663884,5
+movielens,no_text,Without frozen text features,catalog,Recall@20,0.063,0.003391164991562637,5
+movielens,no_text,Without frozen text features,catalog,MRR,0.017992658909111624,0.0013098459832424467,5
+movielens,no_candidate,Candidate-independent scoring,sampled,NDCG@10,0.5478236454727836,0.0036059446730118375,5
+movielens,no_candidate,Candidate-independent scoring,sampled,Recall@20,0.9170000000000001,0.0029154759474226528,5
+movielens,no_candidate,Candidate-independent scoring,sampled,MRR,0.4736427265033963,0.00442654350760403,5
+movielens,no_candidate,Candidate-independent scoring,catalog,NDCG@10,0.017602342054178377,0.0009830537529551577,5
+movielens,no_candidate,Candidate-independent scoring,catalog,Recall@20,0.06,0.003535533905932738,5
+movielens,no_candidate,Candidate-independent scoring,catalog,MRR,0.018828389622114274,0.0008306682517772613,5
+movielens,aux_all,All auxiliary losses,sampled,NDCG@10,0.6046790484977113,0.018464713042612813,5
+movielens,aux_all,All auxiliary losses,sampled,Recall@20,0.9198000000000001,0.003701351104664353,5
+movielens,aux_all,All auxiliary losses,sampled,MRR,0.5357518555723774,0.020922473792322715,5
+movielens,aux_all,All auxiliary losses,catalog,NDCG@10,0.020974253274210656,0.002896207801957694,5
+movielens,aux_all,All auxiliary losses,catalog,Recall@20,0.079,0.00620483682299543,5
+movielens,aux_all,All auxiliary losses,catalog,MRR,0.022942676330879378,0.0017927520297588268,5
+movielens,aux_con,Contrastive loss only,sampled,NDCG@10,0.6029925401277324,0.004014203685076367,5
+movielens,aux_con,Contrastive loss only,sampled,Recall@20,0.9182,0.002167948338867882,5
+movielens,aux_con,Contrastive loss only,sampled,MRR,0.5339002852486697,0.003772575214177622,5
+movielens,aux_con,Contrastive loss only,catalog,NDCG@10,0.020086486394907573,0.0015513664313593278,5
+movielens,aux_con,Contrastive loss only,catalog,Recall@20,0.0826,0.004393176527297757,5
+movielens,aux_con,Contrastive loss only,catalog,MRR,0.022166227128259573,0.001016851904817364,5
+movielens,aux_tem,Temporal loss only,sampled,NDCG@10,0.552178798039968,0.0033754999925015537,5
+movielens,aux_tem,Temporal loss only,sampled,Recall@20,0.9122,0.0054037024344425226,5
+movielens,aux_tem,Temporal loss only,sampled,MRR,0.47793332744709127,0.004796812177800394,5
+movielens,aux_tem,Temporal loss only,catalog,NDCG@10,0.0175673040390795,0.002513467084301799,5
+movielens,aux_tem,Temporal loss only,catalog,Recall@20,0.060399999999999995,0.008876936408468858,5
+movielens,aux_tem,Temporal loss only,catalog,MRR,0.018095366211567397,0.0020049700536797724,5
+movielens,aux_sem,Semantic loss only,sampled,NDCG@10,0.5513605376139121,0.003740526920448062,5
+movielens,aux_sem,Semantic loss only,sampled,Recall@20,0.9146000000000001,0.004335896677735764,5
+movielens,aux_sem,Semantic loss only,sampled,MRR,0.4778792816874861,0.0053588896478130345,5
+movielens,aux_sem,Semantic loss only,catalog,NDCG@10,0.017730918267668355,0.0012571026088188998,5
+movielens,aux_sem,Semantic loss only,catalog,Recall@20,0.0612,0.006099180272790765,5
+movielens,aux_sem,Semantic loss only,catalog,MRR,0.018683006651718338,0.0006856387388715296,5
+movielens,bpr_mf,BPR-MF,sampled,NDCG@10,0.5555909843556662,0.0038135567529015793,5
+movielens,bpr_mf,BPR-MF,sampled,Recall@20,0.8774,0.005224940191045257,5
+movielens,bpr_mf,BPR-MF,sampled,MRR,0.48406634524123754,0.005064882528073455,5
+movielens,bpr_mf,BPR-MF,catalog,NDCG@10,0.0224634088602682,0.002607228157502807,5
+movielens,bpr_mf,BPR-MF,catalog,Recall@20,0.078,0.004415880433163927,5
+movielens,bpr_mf,BPR-MF,catalog,MRR,0.022161026007202655,0.001977113976624158,5
+movielens,sasrec,SASRec port,sampled,NDCG@10,0.5797714884266407,0.006629325603631879,5
+movielens,sasrec,SASRec port,sampled,Recall@20,0.8778,0.0031144823004794903,5
+movielens,sasrec,SASRec port,sampled,MRR,0.5107970299439485,0.007242113743547458,5
+movielens,sasrec,SASRec port,catalog,NDCG@10,0.01644821073054793,0.0028528046776535227,5
+movielens,sasrec,SASRec port,catalog,Recall@20,0.0694,0.008590692637965813,5
+movielens,sasrec,SASRec port,catalog,MRR,0.018333637276787496,0.0016392335928569143,5
+movielens,popularity,Popularity,sampled,NDCG@10,0.5563055804808896,0.0,1
+movielens,popularity,Popularity,sampled,Recall@20,0.939,0.0,1
+movielens,popularity,Popularity,sampled,MRR,0.48174343917321305,0.0,1
+movielens,popularity,Popularity,catalog,NDCG@10,0.0178309312097631,0.0,1
+movielens,popularity,Popularity,catalog,Recall@20,0.077,0.0,1
+movielens,popularity,Popularity,catalog,MRR,0.02028220356684738,0.0,1
+movielens,itemknn,Item neighborhood,sampled,NDCG@10,0.6138087749046602,0.0,1
+movielens,itemknn,Item neighborhood,sampled,Recall@20,0.909,0.0,1
+movielens,itemknn,Item neighborhood,sampled,MRR,0.5535554055864028,0.0,1
+movielens,itemknn,Item neighborhood,catalog,NDCG@10,0.03524733313589027,0.0,1
+movielens,itemknn,Item neighborhood,catalog,Recall@20,0.117,0.0,1
+movielens,itemknn,Item neighborhood,catalog,MRR,0.033125631074849615,0.0,1
+movielens,matched_joint,Matched joint continuation,sampled,NDCG@10,0.5493352486178539,0.003155611165312662,5
+movielens,matched_joint,Matched joint continuation,sampled,Recall@20,0.914,0.004358898943540678,5
+movielens,matched_joint,Matched joint continuation,sampled,MRR,0.47538676422331766,0.0023245480549928554,5
+movielens,matched_joint,Matched joint continuation,catalog,NDCG@10,0.01720685997708036,0.0017633226756125552,5
+movielens,matched_joint,Matched joint continuation,catalog,Recall@20,0.05620000000000001,0.005215361924162118,5
+movielens,matched_joint,Matched joint continuation,catalog,MRR,0.01841911196280278,0.0010171548297322503,5
+movielens,matched_frozen,Matched frozen continuation,sampled,NDCG@10,0.5484367128465053,0.005125428628320586,5
+movielens,matched_frozen,Matched frozen continuation,sampled,Recall@20,0.9132000000000001,0.0036331804249169933,5
+movielens,matched_frozen,Matched frozen continuation,sampled,MRR,0.47380492473221636,0.006990274787542725,5
+movielens,matched_frozen,Matched frozen continuation,catalog,NDCG@10,0.017419654748512176,0.0019987061332493003,5
+movielens,matched_frozen,Matched frozen continuation,catalog,Recall@20,0.060399999999999995,0.0019493588689617912,5
+movielens,matched_frozen,Matched frozen continuation,catalog,MRR,0.01802680267464765,0.0019728999708938265,5
+amazon,full,E2E-PREF ranking only,sampled,NDCG@10,0.1682482019542122,0.0033556927549509637,5
+amazon,full,E2E-PREF ranking only,sampled,Recall@20,0.3747252747252747,0.0031323500689536647,5
+amazon,full,E2E-PREF ranking only,sampled,MRR,0.1516182416343735,0.0031280000166508414,5
+amazon,full,E2E-PREF ranking only,catalog,NDCG@10,0.04987253095590859,0.003396633613503998,5
+amazon,full,E2E-PREF ranking only,catalog,Recall@20,0.1360805860805861,0.004651437765274831,5
+amazon,full,E2E-PREF ranking only,catalog,MRR,0.04384154829287164,0.003032370542948698,5
+amazon,no_graph,Without graph encoder,sampled,NDCG@10,0.1677961093326064,0.001670850231576045,5
+amazon,no_graph,Without graph encoder,sampled,Recall@20,0.3688644688644689,0.006647872312410823,5
+amazon,no_graph,Without graph encoder,sampled,MRR,0.1505997153007011,0.0012298311604759002,5
+amazon,no_graph,Without graph encoder,catalog,NDCG@10,0.04818027210206978,0.0029049707034718097,5
+amazon,no_graph,Without graph encoder,catalog,Recall@20,0.13571428571428573,0.004504898855768806,5
+amazon,no_graph,Without graph encoder,catalog,MRR,0.04300341843270868,0.0029825411478774664,5
+amazon,no_temporal,Mean history instead of temporal encoder,sampled,NDCG@10,0.15780819304872443,0.006170918115749991,5
+amazon,no_temporal,Mean history instead of temporal encoder,sampled,Recall@20,0.3741758241758242,0.007595766063489995,5
+amazon,no_temporal,Mean history instead of temporal encoder,sampled,MRR,0.1454555323881866,0.0042947123741497745,5
+amazon,no_temporal,Mean history instead of temporal encoder,catalog,NDCG@10,0.04581425019590986,0.001957023652169627,5
+amazon,no_temporal,Mean history instead of temporal encoder,catalog,Recall@20,0.1340659340659341,0.009102398270907818,5
+amazon,no_temporal,Mean history instead of temporal encoder,catalog,MRR,0.040933562861028436,0.001366637587322806,5
+amazon,no_text,Without frozen text features,sampled,NDCG@10,0.1681011585247294,0.002789588735036592,5
+amazon,no_text,Without frozen text features,sampled,Recall@20,0.3730769230769231,0.0053239713749994805,5
+amazon,no_text,Without frozen text features,sampled,MRR,0.1511063405480722,0.0031316601540483558,5
+amazon,no_text,Without frozen text features,catalog,NDCG@10,0.04909275432950281,0.003011945150691036,5
+amazon,no_text,Without frozen text features,catalog,Recall@20,0.13589743589743591,0.005123296970952144,5
+amazon,no_text,Without frozen text features,catalog,MRR,0.04431631764235991,0.0033633649026949147,5
+amazon,no_candidate,Candidate-independent scoring,sampled,NDCG@10,0.1687852326615659,0.0017703279999539698,5
+amazon,no_candidate,Candidate-independent scoring,sampled,Recall@20,0.3697802197802198,0.007534799425173701,5
+amazon,no_candidate,Candidate-independent scoring,sampled,MRR,0.1516717416414289,0.002322990587555224,5
+amazon,no_candidate,Candidate-independent scoring,catalog,NDCG@10,0.04938083312177764,0.002583320766896,5
+amazon,no_candidate,Candidate-independent scoring,catalog,Recall@20,0.13406593406593406,0.003009464601676726,5
+amazon,no_candidate,Candidate-independent scoring,catalog,MRR,0.043350736237005465,0.0022746775019891145,5
+amazon,aux_all,All auxiliary losses,sampled,NDCG@10,0.1646605542651059,0.006838131635378714,5
+amazon,aux_all,All auxiliary losses,sampled,Recall@20,0.36923076923076925,0.011166905627486429,5
+amazon,aux_all,All auxiliary losses,sampled,MRR,0.15010970054372225,0.006227840946181543,5
+amazon,aux_all,All auxiliary losses,catalog,NDCG@10,0.049982362167588244,0.002312996021101877,5
+amazon,aux_all,All auxiliary losses,catalog,Recall@20,0.13461538461538464,0.004714116364920794,5
+amazon,aux_all,All auxiliary losses,catalog,MRR,0.04470722103188108,0.002234552969304234,5
+amazon,aux_con,Contrastive loss only,sampled,NDCG@10,0.1655358143051529,0.0014706538525383196,5
+amazon,aux_con,Contrastive loss only,sampled,Recall@20,0.3653846153846154,0.006344508452633255,5
+amazon,aux_con,Contrastive loss only,sampled,MRR,0.14875867852860214,0.002445608100382592,5
+amazon,aux_con,Contrastive loss only,catalog,NDCG@10,0.0499674842782321,0.0014158376762656935,5
+amazon,aux_con,Contrastive loss only,catalog,Recall@20,0.13223443223443224,0.004226366578466782,5
+amazon,aux_con,Contrastive loss only,catalog,MRR,0.045400422921212706,0.0015882087821500706,5
+amazon,aux_tem,Temporal loss only,sampled,NDCG@10,0.1688242329363276,0.0018719963401310398,5
+amazon,aux_tem,Temporal loss only,sampled,Recall@20,0.37454212454212454,0.005339699537404126,5
+amazon,aux_tem,Temporal loss only,sampled,MRR,0.15217655986112416,0.0023217329448945515,5
+amazon,aux_tem,Temporal loss only,catalog,NDCG@10,0.05060348292780108,0.003042162063324417,5
+amazon,aux_tem,Temporal loss only,catalog,Recall@20,0.1371794871794872,0.004265866190055719,5
+amazon,aux_tem,Temporal loss only,catalog,MRR,0.044158498722994204,0.002824064787618595,5
+amazon,aux_sem,Semantic loss only,sampled,NDCG@10,0.1660916683937228,0.0028864653155803812,5
+amazon,aux_sem,Semantic loss only,sampled,Recall@20,0.37051282051282053,0.005630192728549224,5
+amazon,aux_sem,Semantic loss only,sampled,MRR,0.14782700739308616,0.0022162135243565025,5
+amazon,aux_sem,Semantic loss only,catalog,NDCG@10,0.04752548981267238,0.003682918367233147,5
+amazon,aux_sem,Semantic loss only,catalog,Recall@20,0.13168498168498166,0.0031985804389327768,5
+amazon,aux_sem,Semantic loss only,catalog,MRR,0.04224280458002145,0.003023177636098576,5
+amazon,bpr_mf,BPR-MF,sampled,NDCG@10,0.11563572499566518,0.007934516406951536,5
+amazon,bpr_mf,BPR-MF,sampled,Recall@20,0.31996336996337,0.021374497378600973,5
+amazon,bpr_mf,BPR-MF,sampled,MRR,0.10683024341286625,0.0055386101033750934,5
+amazon,bpr_mf,BPR-MF,catalog,NDCG@10,0.028025254541960105,0.002249589593202134,5
+amazon,bpr_mf,BPR-MF,catalog,Recall@20,0.08498168498168499,0.009097790627853325,5
+amazon,bpr_mf,BPR-MF,catalog,MRR,0.027325032954761304,0.00215823435678846,5
+amazon,sasrec,SASRec port,sampled,NDCG@10,0.160041211026474,0.005936970352410074,5
+amazon,sasrec,SASRec port,sampled,Recall@20,0.3989010989010989,0.027961161229838844,5
+amazon,sasrec,SASRec port,sampled,MRR,0.1449666397037213,0.005007090623285872,5
+amazon,sasrec,SASRec port,catalog,NDCG@10,0.04494579811662092,0.004287758357799499,5
+amazon,sasrec,SASRec port,catalog,Recall@20,0.1282051282051282,0.00650763296865929,5
+amazon,sasrec,SASRec port,catalog,MRR,0.04109711748534202,0.004685048888245813,5
+amazon,popularity,Popularity,sampled,NDCG@10,0.15941497036064994,0.0,1
+amazon,popularity,Popularity,sampled,Recall@20,0.37637362637362637,0.0,1
+amazon,popularity,Popularity,sampled,MRR,0.14410558244928418,0.0,1
+amazon,popularity,Popularity,catalog,NDCG@10,0.04403713803680823,0.0,1
+amazon,popularity,Popularity,catalog,Recall@20,0.11904761904761904,0.0,1
+amazon,popularity,Popularity,catalog,MRR,0.03920316458637503,0.0,1
+amazon,itemknn,Item neighborhood,sampled,NDCG@10,0.15486547077065363,0.0,1
+amazon,itemknn,Item neighborhood,sampled,Recall@20,0.4166666666666667,0.0,1
+amazon,itemknn,Item neighborhood,sampled,MRR,0.13660484416492824,0.0,1
+amazon,itemknn,Item neighborhood,catalog,NDCG@10,0.03627331275640076,0.0,1
+amazon,itemknn,Item neighborhood,catalog,Recall@20,0.11172161172161173,0.0,1
+amazon,itemknn,Item neighborhood,catalog,MRR,0.03460110636014899,0.0,1
+amazon,matched_joint,Matched joint continuation,sampled,NDCG@10,0.16682939193362006,0.0014722385361620714,5
+amazon,matched_joint,Matched joint continuation,sampled,Recall@20,0.367948717948718,0.006423325244230836,5
+amazon,matched_joint,Matched joint continuation,sampled,MRR,0.14950416621676968,0.0024459035026846957,5
+amazon,matched_joint,Matched joint continuation,catalog,NDCG@10,0.047617495651256864,0.0032288528770233493,5
+amazon,matched_joint,Matched joint continuation,catalog,Recall@20,0.1360805860805861,0.003808907388843485,5
+amazon,matched_joint,Matched joint continuation,catalog,MRR,0.0424058587967636,0.003011295540317387,5
+amazon,matched_frozen,Matched frozen continuation,sampled,NDCG@10,0.16778114330241184,0.0009102430980550641,5
+amazon,matched_frozen,Matched frozen continuation,sampled,Recall@20,0.37051282051282053,0.006264700137907348,5
+amazon,matched_frozen,Matched frozen continuation,sampled,MRR,0.15129113027264687,0.0016430813018959416,5
+amazon,matched_frozen,Matched frozen continuation,catalog,NDCG@10,0.049230710271232825,0.0028674571762823675,5
+amazon,matched_frozen,Matched frozen continuation,catalog,Recall@20,0.13424908424908424,0.002387986229011951,5
+amazon,matched_frozen,Matched frozen continuation,catalog,MRR,0.043536226376356256,0.002983396326310048,5
